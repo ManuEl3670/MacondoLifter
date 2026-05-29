@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='it'>
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>MacondoLifter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-card">
+        <h1>MacondoLifter</h1>
+        <p class="subtitle">Calcolala tua forza relativa.</p>
+
+        <div class="form-group">
+            <label for="esercizio">Esercizio</label>
+            <select id="esercizio">
+                <option value="squat">Squat</option>
+                <option value="panca">Panca Piana</option>
+                <option value="stacco">Stacco da Terra</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="pesoCorporeo">il tuo peso corporeo (kg)</label>
+            <input type="number" id="pesoCorporeo" placeholder="Es. 70kg" min="0">
+        </div>
+
+        <div class="form-group">
+            <label for="pesoAlzato">Peso sollevato (kg)</label>
+            <input type="number" id="pesoAlzato" placeholder="Es. 120kg" min="0">
+        </div>
+
+        <div class="form-group">
+            <label for="videoLink">Link al video di verifica</label>
+            <input type="url" id="videoLink" placeholder="Es. https://www.youtube.com/watch?v=...">
+        </div>
+
+        <button id="btnCalcola" onclick="calcolaLivello()">Calcola Forza Relativa</button>
+
+        <div class="result-box" id="resultBox">
+            <p>rapporto Forza/peso: <span id="txtRapporto" class="highlight">0</span>x</p>
+            <h3>il tuo stendardo è:</h3>
+            <span id="txtLivello" class="badge">-</span>
+            <p id="msgVerifica" class="sub-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

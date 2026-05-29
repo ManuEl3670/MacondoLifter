@@ -1,0 +1,142 @@
+/* reset e layout */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter, system-ui, -apple-system, sans-serif';
+	background-color: #0f172a;
+	color: #f8fafc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* scheda principale */
+.calculator-card {
+	background-color: #1e293b;
+	padding: 2.5rem;
+	border-radius: 16px;
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	max-width: 420px;
+	border: 1px solid #334155;
+}
+
+h1 {
+	
+	margin: 0 0 0.5rem 0;
+	font-size: 2.2rem;
+	text-align: center;
+	color: #38bdf8;
+	letter-spacing: -0.05em;
+}
+
+.subtitle{
+	text-align: center;
+	color: #94a3b8;
+	margin-bottom: 2rem;
+	font-size: 0.9rem;
+}
+
+/* elementi del modulo */
+.form-group {
+	margin-bottom: 1.25rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: #cbd5e1;
+}
+
+input, select {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #475569;
+	border-radius: 8px;
+	background-color: #0f172a;
+	color: #fff;
+	font-size: 1rem;
+	box-sizing: border-box;
+	transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+	outline: none;
+	border-color: #38bdf8;
+}
+
+/* Bottone Azione */
+button {
+	width: 100%;
+	padding: 0.85rem;
+	background-color: #38bdf8;
+	color: #0f172a;
+	border: none;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	margin-top: 1rem;
+	transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+	background-color: #7dd3fc
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+/* Area Risultati */
+.result-box {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background-color: #0f172a;
+	border-radius: 12px;
+	text-align: center;
+	border: 1px dashed #334155;
+	display: none;
+}
+
+.result-boc p {
+	margin: 0 0 0.5rem 0;
+	color: #94a3b8;
+}
+
+.highlight {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+h3 {
+	margin: 0 0 0.75rem 0;
+	font-size: 1rem;
+	color: #cbd5e1;
+}
+
+.badge {
+	display: inline-block;
+	padding: 0.5rem 1.5rem;
+	border-radius: 50px;
+	font-weight: 800;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+
+.sub-text {
+	font-size: 0.8rem;
+	color: #64748b !important;
+	margin-top: 0.5;
+}
+
+/* Classi diStendardo */
+.livello-principiante {background-color: #16a34a; color: #f0fdf4;}
+.livello-intermedio {background-color: #ca8a08;color: #fefce8;}
+.livello-avanzato {background-color: #dc2626; color: #fef2f2;}
+.livello-elite {background-color: #7c3aed; color: #f5f3ff;}
