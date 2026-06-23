@@ -1,2 +1,2 @@
 # MacondoLifter
-il sito calcola la forza relativa in esercizi fondamentali del pawerlifting dei vari utenti. Livella il campo di gioco per tutti, trasformando i massimali in "stendardi di forza" e livelli stile videogioco.
+The site calculates the relative strength in fundamental pawerlifting exercises such as the squat, bench press and deadlift of various users knowing the weight of the athlete, the weight lifted and obviously the exercise. There's also a final section where you can link to a video of your lift so you can verify it and assign a level to the user. I wasn't able to fully complete this last section.
